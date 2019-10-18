@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chisu.newssalad">
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.front" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.front.autofocus"  android:required="false"/>
+
+    <supports-screens android:resizeable="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme0">
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".streaming.broadcaster.BroadCasterActivity_"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".streaming.viewer.ViewerActivity_"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".general.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".streaming.broadcaster.ReadyBroadcastActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".vod.VodActivity" />
+        <activity android:name=".general.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Main2Activity" />
+        <activity android:name=".general.fragments.TestActivity" />
+        <activity android:name=".general.UserInformationActivity" />
+        <activity android:name=".token.MakeWalletActivity" />
+        <activity android:name=".token.BuyTokenActivity" />
+        <activity android:name=".test.opencvActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.nhancv:nc-android-webrtcpeer-2.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nc-android-webrtcpeer-2.1.0.aar/69653c8582a808cf6e7841f920959391/jars/libs/autobanh.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nc-android-webrtcpeer-2.1.0.aar/69653c8582a808cf6e7841f920959391/jars/libs/audio_device_java.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nc-android-webrtcpeer-2.1.0.aar/69653c8582a808cf6e7841f920959391/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nc-android-webrtcpeer-2.1.0.aar/69653c8582a808cf6e7841f920959391/jars/libs/base_java.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nc-android-webrtcpeer-2.1.0.aar/69653c8582a808cf6e7841f920959391/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nc-android-webrtcpeer-2.1.0.aar/69653c8582a808cf6e7841f920959391/jars/libs/libjingle_peerconnection.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

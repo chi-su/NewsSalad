@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7e6fe2</color>
+    <color name="colorPrimaryDark">#8a53cf</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorStart">#cb5ed9</color>
+    <color name="colorEnd">#8463d4</color>
+    <color name="black">#000000</color>
+    <color name="newssaladbackground">#212121</color>
+</resources>
